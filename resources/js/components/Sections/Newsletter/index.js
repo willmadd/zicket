@@ -1,1 +1,1 @@
-export {default} from './Newsletter.component';
+export {default} from './Newsletter.container';

@@ -28,9 +28,15 @@
         "tailwindcss": "^2.1.4"
     },
     "dependencies": {
+        "flickity": "^2.2.2",
+        "prop-types": "^15.7.2",
+        "react-flickity-component": "^3.6.1",
+        "react-hook-form": "^7.9.0",
         "react-redux": "^7.2.4",
         "react-router-dom": "^5.2.0",
+        "react-slick": "^0.28.1",
         "redux": "^4.1.0",
-        "redux-thunk": "^2.3.0"
+        "redux-thunk": "^2.3.0",
+        "slick-carousel": "^1.8.1"
     }
 }

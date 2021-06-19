@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="556px" height="368px" viewBox="0 0 556 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle Copy 21</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="::-How-Zicket-Works" transform="translate(-146.000000, -1384.000000)" filter="url(#filter-1)">
+            <g transform="translate(116.000000, 1147.000000)">
+                <g id="Set-up-and-Payments" transform="translate(30.000000, 189.000000)" fill="#F1F5FB">
+                    <g id="::-Img" transform="translate(0.000000, 0.291480)">
+                        <path d="M7.29972281,48.2661721 L506.373948,86.3922342 C509.139414,86.603498 511.399676,88.6826759 511.840609,91.4209268 L554.985035,359.353391 C555.511846,362.624956 553.286784,365.704147 550.01522,366.230958 C549.892716,366.250685 549.76963,366.266606 549.64614,366.2787 L50.74201,415.137491 C47.4994898,415.455038 44.5960891,413.126949 44.2014034,409.892912 L0.886882179,54.9755945 C0.48545176,51.6862909 2.82653546,48.6943599 6.11583898,48.2929295 C6.50861916,48.2449942 6.905178,48.2360314 7.29972281,48.2661721 Z" id="Rectangle-Copy-21"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

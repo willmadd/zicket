@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>6B Notes App</title>
+        <title>Zicket</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -16,6 +16,8 @@
         <meta property="og:title" content="" />
         <meta property="og:description" content="" />
         <meta property="og:image" content="" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
 <div id="root">

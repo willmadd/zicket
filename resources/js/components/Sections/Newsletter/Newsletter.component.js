@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from "react";
 
-const Text = ({pageSection,index}) => {
+const Newsletter = ({ pageSection, index, onSubmit, register, handleSubmit, errors={} }) => {
+console.log(handleSubmit, onSubmit);
     return (
-        <div>
-            <h1>ewsletter</h1>
-        </div>
+        <form onSubmit={handleSubmit(onSubmit)}>
+            <input
+                type="text"
+                placeholder="Email"
+                {...register("email", {
+                    required: true,
+                    pattern: /^\S+@\S+$/i,
+                })}
+            />
+            {errors.email && <span>Please enter a valid email address</span>}
+            <input type="submit" />
+        </form>
     );
 };
 
-export default Text;
+export default Newsletter;

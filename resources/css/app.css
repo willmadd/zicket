@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .white-outline {
+        -webkit-text-stroke: 1px #ffffff;
+      }
+      
+      .blue-outline {
+        -webkit-text-stroke: 1px #3B8EF9;
+      }
+  }
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+      @apply font-head;
+    }
+    p {
+      @apply font-body;
+      @apply text-body;
+      @apply text-p;
+    }
+    h1{
+        @apply text-h1;
+    }
+    h2{
+        @apply text-h2;
+    }
+    h3{
+        @apply text-h3;
+    }
+  }
