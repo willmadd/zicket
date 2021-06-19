@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Hero",
+    "type": "text",
+    "title": "Make Your Event A Success",
+    "text": "Zicket Handles all the hassle of selling tickets fr every event type.",
+    "buttonColour": "#fof",
+    "buttonText": "Get Started",
+    "buttonLink": "/getting-started",
+    "background": "/images/hero.jpg",
+    "overlaySrc":"data:image/jpeg;base64,/9j/2wCEABoZGSccJz4lJT5CLy8vQkc9Ozs9R0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0cBHCcnMyYzPSYmPUc9Mj1HR0dEREdHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR//dAAQABf/uAA5BZG9iZQBkwAAAAAH/wAARCAAwAEgDACIAAREBAhEB/8QAawAAAwEBAQAAAAAAAAAAAAAAAQIDAAUEAQADAQEAAAAAAAAAAAAAAAABAgMFABAAAgIBBAEDBQEAAAAAAAAAAAECESEDEjFBUTJh0RMigbHB8BEBAQEBAAMAAAAAAAAAAAAAAAERAhIhUf/aAAwDAAABEQIRAD8A4BWCYIxt0WiqwbdThooZRrI8UU2kKrEZaakQlonuqhZRsGn8ZXOcM0mI00e1qmRnGsvI+p3lBWNQvLGoJH//0OVCDbvss1m/JKM0i6mpY7Nm6iaMSqRHVe3TbY2jH6cFufq48Ilfqkqu3BJqmS0dXYnvdq6+Q6uolPasqs/wGKzr00vYjKVrAjt20+/18irUu9qDgWpyVPJqGk9zvwb8jJv/0eO1mzK+uUZrIjt8o3sQlNqScnt68Bl9sk+YrhCR5tlHKLV8sWw5Wtyuqz3/ALIXptW+muUI5ZTeaRPN2Jg6ZpIHoeOQLnIZPdwBwJ27ZW4+5O3wuA2/cUX/2Q==",
+    "hideTextAccent":true
+  },
+  {
+    "name": "Content",
+    "type": "sections",
+    "title": "How Zicket Works",
+    "text": "Our Hong Kong and Singapore based experts will help get your event set-up and selling tickets quickly and easily",
+    "sections": [
+      {
+        "layout": "left",
+        "title": "Set up & Payments",
+        "order": 1,
+        "text": "Quickly build your dedicated events page in English & Chinese. Accept payments from all major providers through our safe and reliable checkout.",
+        "buttonText": "Explore Features",
+        "buttonLink": "/explore-features",
+        "img": "/images/payments.png",
+        "overlaySrc":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAtCAMAAAAa5oJhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ4OCwgMjAyMC8wNy8xMC0yMjowNjo1MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzRDN0EwRjNDNjJEMTFFQjlEQUY4MTc3OTVEQzA4OUYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzRDN0EwRjRDNjJEMTFFQjlEQUY4MTc3OTVEQzA4OUYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NEM3QTBGMUM2MkQxMUVCOURBRjgxNzc5NURDMDg5RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NEM3QTBGMkM2MkQxMUVCOURBRjgxNzc5NURDMDg5RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjY5fqEAAABgUExURVuq86Jr/c+N/vn6/TdfksjY+i4vMqfX/WHJ/kSd9Oju+Lx6/oKm5K+0ytnc5KyO41SDsOnL/+Ll7cbJ1PjBVPH0+H2E/5Y2/5Wz4/lLWkC//5ChwXOZw/bn/////////4zy5LkAAAAgdFJOU/////////////////////////////////////////8AXFwb7QAAAolJREFUeNqEleuWqyAMhblorYCCOKijFt//LU8SEG3PrJndVX99a4edRGQHqbP98asYPaUVopN/c6MA2fFPzgr9/Q2k/50DO/399SV+Kc6SHYi4VFx5pQJISnnnvBY3Wd8Zh9rdDtp84bo7pvX0fNy1n1ywWlyOmk/tG/foM9eBx/pkxiY7PrHKUUkDWhbTZQ6aMq3P57oiPE2ct5WKMp6qt8SNWiPXNA2i69q2rKoTIl+vGFXmLHFrc4LILQhJ+ZLDK0oKwnqduCc4Zr/W7YANKDQ0ATmbuVMtcg78hkEgGOOCrWccMAEcM8wYC5qgMRUdLkS0iw0GZmHj5Kf12WdsjIrxPTD2uePtunKNZYjjJTBJ7WWv9nWdLj/gutwYenxweFD4AciciTUJV4YCJ85ATq0TCX4TBAbIJ1Yu/cmxwmniWieR8wr8IPB453guDBsIjQnxOmHdZU5mTgxIWQzipSII9lrihIkLDMbGS1nkRomrH2NQMoaTU+AHgbnmGWxhE5SSZ2kjTz8YauI4+U24CbgxKJiwP++D4NUGRMZmnLCUJQoEZuUNHQlJgglLCiIDHhACX1xPRPFTQaHIFAJfXEBKZ1PYBIktSZXDnTtsduPT1qXVLzIfHLe263HNDQUuWtSNGxOS7k2YcKFew9IXDuJDe/DocAEdUDi/mULP89yMJyepBUp5khpx9QdiOPzHhRU74hDqQcDVCHB6iHq7zkdgxvoeAiMyz2KoG1PttxxIqsx54zYx82GoF1dVj4djb7drPEngYKWbHRnUxj4vYjLt/dJWrjpvQOdG9v+VjaaqY5mpKrd3/cF+vN1l9IzcEPLX9+MHbS05qbfvzE+WY3ON8Tj+CTAAftuEfRcQiW4AAAAASUVORK5CYII="
+      },
+      {
+        "layout": "right",
+        "title": "Progress & Promotion",
+        "order": 2,
+        "text": "View sales & audience data in real-time. Maximise event reach via Zicket’s Social Media channels, eDM Database and partner network.",
+        "buttonText": "Explore Features",
+        "buttonLink": "/progress-and-promotion",
+        "img": "/images/promotion.png",
+        "overlaySrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAApCAMAAABEBVrmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ4OCwgMjAyMC8wNy8xMC0yMjowNjo1MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTUyRjY3MkNDNjRFMTFFQjlEQUY4MTc3OTVEQzA4OUYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTUyRjY3MkRDNjRFMTFFQjlEQUY4MTc3OTVEQzA4OUYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NEM3QTBGNUM2MkQxMUVCOURBRjgxNzc5NURDMDg5RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NEM3QTBGNkM2MkQxMUVCOURBRjgxNzc5NURDMDg5RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pr4ZzFAAAABgUExURfX2+WBh9q5O/ZRK+0ia/cGk9Fam/WOz/avP+7SyyjqK/ctk/cnL2DV1966Vy4Q99LCH+o+mynM80WF69o+Lzbly5+Dg5nCS1X+v6Jly8pBl1qt61VY7r4OU/5FF3v///3/zObkAAAAgdFJOU/////////////////////////////////////////8AXFwb7QAAAppJREFUeNqMlYfSqyAQhWnRgCBSXDUaef+3/BdN0RsyN0wmbc63nC0IST+uuell/iQ/A6z5HSBA0o03+megbfp2tQWAxCGSItC03jbwAQC9U/gCLLYvAKYMzDtACpZo3L84R87AbfF9KiYtW6weXK9wBjzzcxFou0vnnB7G8w7Mr77/qBKMwxARCMGd49wYW1b/2ThXX2sEpvs9JkIOJlebd8h9AHICRlK7OVJDpQsBDvE9Y6uZIEF72kFW9aB10jFiQ3ZAS8ChYEsGOkjtGQCpB1FJ2XXx2UGsj75ZtgTGhomk/gjoEGQKV3BYqDY+8p4Zk4vli+IszEljGm8ghvuQ1LWSbde1j0ZmO+vqVxooDQPudwQcDTHJQQK0cv8Xmhnrs6wL44YGoWKD80eOGeAPOXfw7KjG8Av360KpMcoY2jTko9Pxctka2vaSgOUrJsC9sUoFxhm7lUZjhtw1nOj+4rlfqKjQkDKMMcurUZLCaSQZyNOwImGEUOiHM85tVdf1ESB5be9AWs68x/heCaWUoVkfUP8aSnJaUzN5zJjjlIgsD9NDX+/tOWohVy6PJ6WWeoNyw62o7K7fgHPwrrnMl5vl1mAtTdj0oapEyAnUo/4AejwsjHtK0bqiuWXWiwrXQ17Yga+eqpBjU6wlt3mDrB9fJ+7tH4s03q0PGJrRrOcvvYP0PtMPNRBdj2OFhcSyZzGqLc1+Dv16ArC9RiHEVpddzUPY5PrQLZJeBG6Qm7R5RzlHcZY7fR6F9CZIJZ76bAUXyv99Er47DeS6dXW3HrJ+kJ+P5uNoVNk9+g50l+viXfGePMwg8D00Lqe/XC7HB1/LsnWFwR18vY2OXycev1kvAXh4oPpmvQwkEN+9FICUyP/vyD8BBgDCVqCZtPqqAQAAAABJRU5ErkJggg=="
+      },
+      {
+        "layout": "left",
+        "title": "Entry & RFID",
+        "order": 3,
+        "text": "Manage entry through our iOS and Android app. Take your event cashless with our best-in-class solution.",
+        "buttonText": "Explore Features",
+        "buttonLink": "/explore-features",
+        "img": "/images/rfid.png",
+        "overlaySrc":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAMAAADM4ogkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ4OCwgMjAyMC8wNy8xMC0yMjowNjo1MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTUyRjY3MzBDNjRFMTFFQjlEQUY4MTc3OTVEQzA4OUYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTUyRjY3MzFDNjRFMTFFQjlEQUY4MTc3OTVEQzA4OUYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFNTJGNjcyRUM2NEUxMUVCOURBRjgxNzc5NURDMDg5RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNTJGNjcyRkM2NEUxMUVCOURBRjgxNzc5NURDMDg5RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Plt78l4AAABgUExURYdV4mHL/1BPT6uxwUdrkZ/N/ZqMtfb6/MnM0VO7/m97huvz+9fq/yuF/Wy27bt8+U+g9eLj5J5b+YewzUJZc7D0lEKJyjczMWt49HGYvOb83kVGSHHrPj49PP///////3kC488AAAAgdFJOU/////////////////////////////////////////8AXFwb7QAAAiZJREFUeNqE1O2SoyAQBdAGlE9HAYnRYcX3f8vtRo3JTjJ7f1hW5QRoaIGN4pZpwYwYIYRW289AfS48YzhPlIYx/QGKRC6vNffMmHgPdaoDHvKeGAtvobI5P4/YfIKhaZqUTrfeJ9aX9zB9Uaav6td1YuP7qnXzdcXn1X+CQrq27f0B12zYPIRNC/0vlEIVjOqIT2sybBikYIyN7hVaUa5oKnqI0SNkvX6Fuih1QkFFA8DMakZ1QWdDcZSqLUIzw+x3yPrwgMEG1xZ1U2gJemb87E17yPM4YdO2dG25/blhOaXw1TBmDD7ak45hhwJhVyH6kJMxnqS5ZG0mhLIop75v36VtqWjjYa7QXHIkKHF3aH2udI6KRhgPeQ3qEOLuOKoXsSryPnkf4zDUZbJakjlGRLgjil29GcUwDKI3x2AzToBHBLSNZR8Qsc3eiE2SHCvDPcUJJE4d7ONUlHIci8YaJR7iLueZFjLIDXAbyew0rI0xuG1KxhhrYxgv6F9RA+4Opusq1WvDejressue+mJ/B7nsTVaf4mpv+jXqQJ0WYoQIkjdjd65S3q/2rlIcrwgt5zkt7Q6x6OubFiQlHbQGkASJ2hZbR2HRT7eEhkr1FgAELLwmZ1xBIPj0Tbs6PYAFsYFI/KTJ5qPo50Gx3dFtoEbLHzT/+KaLkNXVC2BpHvT9x/+4zS5KJ/0LxLUgpfvRe/073Cmf/KL+B4n65eVyeMlfAQYAZhpuimlkMzYAAAAASUVORK5CYII="
+      },
+      {
+        "layout": "right",
+        "title": "Support & Analysis",
+        "order": 4,
+        "text": "Omni-channel support for your and your customers. Post event in-sight, analysis and recommendations.",
+        "buttonText": "Explore Features",
+        "buttonLink": "/explore-features",
+        "img": "/images/analysis.png",
+        "overlaySrc":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAvCAMAAACrOwigAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ4OCwgMjAyMC8wNy8xMC0yMjowNjo1MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTUyRjY3MzRDNjRFMTFFQjlEQUY4MTc3OTVEQzA4OUYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTUyRjY3MzVDNjRFMTFFQjlEQUY4MTc3OTVEQzA4OUYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFNTJGNjczMkM2NEUxMUVCOURBRjgxNzc5NURDMDg5RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNTJGNjczM0M2NEUxMUVCOURBRjgxNzc5NURDMDg5RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv7jN6sAAABgUExURVKd+c6E/wsKEj15z4tP8PLy88V8/9TT2rlx/7y4y5Fd/bOmyqVl+7Js/icmJ5Vs5j5dh1M1hbqJ36KMzDU0SZ1X9W5Lr3uf0IRC76qWyLNr3qNx+G6w/rx55aN/4v///yCDxIcAAAAgdFJOU/////////////////////////////////////////8AXFwb7QAAAkZJREFUeNqM1tuSgyAMAFBQMSCKUu+11f//yw1QKyhONy/t7JyEhDKwZLuJB80f17+SO/7M+XMDKYT4FwdAOL5er/EnZwDAMJAT8pMzSWyM2AwI+MXlSrAJLDwLu8ov3nx4XZdL9X4/21kIsGkxPjepCZIqpbqe5n1WlGW5LMsqTnx+vwF505lArRKl9ZAkierwM1vOnFdyGw1H2ti05Igu4LY7xgD7bhQmpGYE0hxcrz6H14ghGEkJcqVSO6/Hhzngttq4DZ++sToJeBaMytz+sQHH0pjQpNh96jVfQDDqaAP5k3JttyXxQ9Us4O73Y43CPTPc7qQ/aeRnksRspNq15/Uc4ebQvtKITgYR54SkseoZRDgQc2AiGieNHTHxbdzyb0K3bnHeqe6qE91GudTx6oO8cgZyLXDTD6W8jQk52geleVnahHMUEHBnq9JEUWRDl5yPwMGd5Qb3WWb9NGmfm41xnBlLqSuMfJpsAmZ4PeERMJyJmX6C794mVAtmTN+ezKQbkdQL23nfWz/1ZVXZpvR+BHye57nrvt+9WcFlmJ5qd89IZ12KWeDgXsKg688tJnKa7/VN8PLgR0LR7pcePA5ro/I4JqCveA3fO5K1Aee4QBZozhfhXals9jw3UfV7L/idVy0Lb2C5e76HXaBHynktLhe2GdjXGL3BXungwoaVnrjpyS8d3u9svWgelD49B6y9+KD05fWQPPBlWPr62IjF8zX8fLVh/Zae2T8eeRz4rnT05WPtXem7d3VZ4eY/hT8BBgAaTp/VsrbERgAAAABJRU5ErkJggg=="
+      }
+    ]
+  },
+  {
+    "name": "Our Clients",
+    "type": "carousel",
+    "title": "Our Clients",
+    "text": "We’ve supported all kinds of events from large to small and we can help yours too.",
+    "slides": [
+      {
+        "image": "/images/aia-carnival.jpg",
+        "link": "/aia-carnival",
+        "title": "Carnival",
+        "text": "AIA Carnival"
+      },
+      {
+        "image": "/images/marina-bay.jpg",
+        "link": "/marina-bay",
+        "title": "Carnival",
+        "text": "Prudential Marina Bay Carnival"
+      },
+      {
+        "image": "/images/europe-circus.jpg",
+        "link": "/aia-carnival",
+        "title": "Circus",
+        "text": "The Great Circus of Europe"
+      },
+      {
+        "image": "/images/hong-kong-wheel.jpg",
+        "link": "/hong-kong-observation-wheel",
+        "title": "Landmark",
+        "text": "Hong Kong Observation Wheel"
+      }
+    ]
+  },
+  {
+    "name": "CTA",
+    "type": "text",
+    "title": "Try Zicket Today",
+    "text": "Join thousands of other events planners and start selling tickets to your event.",
+    "buttonColour": "#ffffff",
+    "buttonText": "Sign Up",
+    "buttonLink": "/sign-up",
+    "background": "#000000",
+    "hideTextAccent":false
+  },
+  {
+    "name": "Signup",
+    "type": "newsletter",
+    "text": "Receive our latest news, announcements and offers."
+  }
+]
