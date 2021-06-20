@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header className="flex justify-between absolute w-full z-20 items-center flex-col md:flex-row">
             <Link to={RouteId.home}>
-                <Image src={'/images/logo.svg'} alt='zicket' classNames="m-4 md:m-0 ml-5"/>
+                <Image src={'/images/logo.svg'} alt='zicket' classNames="m-4 md:m-0 md:ml-4"/>
             </Link>
             <Nav />
             <Button label={'Get Zicket'} bgCol={'pink-1'}/>
