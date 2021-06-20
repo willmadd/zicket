@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import Image from "../Image";
 import Button from "../Button";
 import PropTypes from "prop-types";
+import {sliderSettings} from './Carousel.config';
 
 const Carousel = ({ pageSection }) => {
     const slider = useRef(null);
@@ -25,27 +26,20 @@ const Carousel = ({ pageSection }) => {
 
     const [ctaHead, ctaTail] = splitTitle(ctaTitle);
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows: false,
-    };
+ 
 
     return (
         <section className="linear-grad relative">
             <div className="w-0 h-0 border-solid border-tri"></div>
-            <div className="ggrid grid-cols-1 md:grid-cols-2">
-                <div className="w-355px ml-18vw mb-14">
+            <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-2">
+                <div className="w-full md:w-355px md:ml-18vw mb-14">
                     <h2 className="uppercase mb-5">
                         <span className="text-transparent white-outline">
                             {head}
                         </span>{" "}
                         <span className="text-white">{tail}</span>
                     </h2>
-                    <p className="text-white  mr-24">{text}</p>
+                    <p className="text-white  md:mr-24 mx-16 md:mx-0">{text}</p>
                 </div>
                 <div className="w-355px mx-auto">
                     <div className="flex justify-center items-center h-full">
@@ -68,8 +62,8 @@ const Carousel = ({ pageSection }) => {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen overflow-hidden p-6 ml-12vw">
-                <Slider ref={slider} {...settings}>
+            <div className="max-w-screen overflow-hidden p-6 md:ml-12vw">
+                <Slider ref={slider} {...sliderSettings}>
                     {slides.map((slide) => {
                         const { image, link, title, text } = slide;
                         return (
@@ -85,7 +79,7 @@ const Carousel = ({ pageSection }) => {
                 </Slider>
             </div>
             <div className="flex justify-center items-center flex-col pb-20">
-                <h2 className="uppercase mx-auto mt-14 w-fit-content mb-4">
+                <h2 className="mx-auto mt-14 w-fit-content mb-4 text-center">
                     <span className="text-transparent white-outline capitalize">
                         {ctaHead}
                     </span>{" "}

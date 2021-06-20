@@ -8,7 +8,7 @@ const InfoCard = ({ section, i }) => {
         section;
     return (
         <section className="grid grid-cols-1 md:grid-cols-2">
-            <div className={`${imgLeft ? `order-1` : `order-2`}`}>
+            <div className={`${imgLeft ? `md:order-1` : `md:order-2`}`}>
                 <Image src={img} overlaySrc={overlaySrc} />
             </div>
             <div

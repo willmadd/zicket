@@ -4,14 +4,10 @@
 
 Zicket site mock up, based off designs provided. `https://github.com/willmadd/zicket`
 
-## Requirements
-
-
-
 ## Timing Breakdown
 
 ### Hour 1 :
- Install React, Redux, Laravel and dependancies, configure tailwind, implement basic routing and set up git repo.
+ Install React, Redux, Laravel and dependencies, configure tailwind, implement basic routing and set up git repo.
 
 ### Hour 2 : 
 Set up basic Laravel End points, create sample api json file and get it returning on when route hit. Use Axios in the FE to populate page content from laravel into Redux
@@ -42,9 +38,9 @@ Style Newsletter section and write README.md
 
 1. Run `git clone https://github.com/willmadd/zicket.git` to clone the project locally
 2. `cd zicket`
-3. run `composer install` to install Laravel and dependancies
+3. run `composer install` to install Laravel and dependencies
 4. In the root directory, Rename the file `.env.example` to `.env`
 5. run `php artisan key:generate`
-6. To install react and dependancies run `npm install && npm run production`
+6. To install react and dependancies run `npm install && npm run dev`
 7. Run `php artisan serve` to serve the app
 8. Zicket App should now be viewable at `localhost:8000`
