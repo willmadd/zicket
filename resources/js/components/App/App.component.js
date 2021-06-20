@@ -1,9 +1,9 @@
-import React from 'react';
-import { Switch} from "react-router-dom";
+import React from "react";
+import { Switch } from "react-router-dom";
 import { routes } from "../../routes/routes";
 import RouteFromArray from "../../routes/RouteFromArray";
-import '../../../css/app.css';
-import Header from '../Header';
+import "../../../css/app.css";
+import Header from "../Header";
 
 function App() {
     return (
@@ -23,4 +23,3 @@ function App() {
 }
 
 export default App;
-

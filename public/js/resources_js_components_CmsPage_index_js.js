@@ -2017,21 +2017,24 @@ var Carousel = function Carousel(_ref) {
           }, image);
         })
       }))
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("h2", {
-      className: "uppercase mx-auto mt-14 w-fit-content",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("span", {
-        className: "text-transparent white-outline capitalize",
-        children: ctaHead
-      }), " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("span", {
-        className: "text-white capitalize",
-        children: ctaTail
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+      className: "flex justify-center items-center flex-col pb-20",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("h2", {
+        className: "uppercase mx-auto mt-14 w-fit-content mb-4",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("span", {
+          className: "text-transparent white-outline capitalize",
+          children: ctaHead
+        }), " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("span", {
+          className: "text-white capitalize",
+          children: ctaTail
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
+        className: "text-white mb-4 max-w-xs text-center",
+        children: ctaText
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Button__WEBPACK_IMPORTED_MODULE_6__.default, {
+        to: ctaButtonLink,
+        label: ctaButtonText
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-      className: "text-white",
-      children: ctaText
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Button__WEBPACK_IMPORTED_MODULE_6__.default, {
-      to: ctaButtonLink,
-      label: ctaButtonText
     })]
   });
 };

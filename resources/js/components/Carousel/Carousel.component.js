@@ -84,14 +84,16 @@ const Carousel = ({ pageSection }) => {
                     })}
                 </Slider>
             </div>
-            <h2 className="uppercase mx-auto mt-14 w-fit-content">
-                <span className="text-transparent white-outline capitalize">
-                    {ctaHead}
-                </span>{" "}
-                <span className="text-white capitalize">{ctaTail}</span>
-            </h2>
-            <p className="text-white">{ctaText}</p>
-            <Button to={ctaButtonLink} label={ctaButtonText} />
+            <div className="flex justify-center items-center flex-col pb-20">
+                <h2 className="uppercase mx-auto mt-14 w-fit-content mb-4">
+                    <span className="text-transparent white-outline capitalize">
+                        {ctaHead}
+                    </span>{" "}
+                    <span className="text-white capitalize">{ctaTail}</span>
+                </h2>
+                <p className="text-white mb-4 max-w-xs text-center">{ctaText}</p>
+                <Button to={ctaButtonLink} label={ctaButtonText} />
+            </div>
         </section>
     );
 };
@@ -106,6 +108,6 @@ Carousel.propTypes = {
         ctaTitle: PropTypes.string.isRequired,
         ctaButtonText: PropTypes.string.isRequired,
         ctaButtonLink: PropTypes.string.isRequired,
-        ctaText: PropTypes.string.isRequired
+        ctaText: PropTypes.string.isRequired,
     }),
 };
