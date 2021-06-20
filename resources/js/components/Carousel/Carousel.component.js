@@ -37,7 +37,7 @@ const Carousel = ({ pageSection }) => {
     return (
         <section className="linear-grad relative">
             <div className="w-0 h-0 border-solid border-tri"></div>
-            <div className="grid grid-cols-2">
+            <div className="ggrid grid-cols-1 md:grid-cols-2">
                 <div className="w-355px ml-18vw mb-14">
                     <h2 className="uppercase mb-5">
                         <span className="text-transparent white-outline">

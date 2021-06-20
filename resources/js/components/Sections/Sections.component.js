@@ -10,7 +10,7 @@ const Sections = ({ pageSection }) => {
 
     return (
         <div className="max-w-page mx-auto py-32">
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2">
                 <h2 className="uppercase w-350px mx-auto">
                     <span className="text-transparent blue-outline">
                         {head}

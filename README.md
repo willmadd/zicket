@@ -4,6 +4,9 @@
 
 Zicket site mock up, based off designs provided. `https://github.com/willmadd/zicket`
 
+## Requirements
+
+
 
 ## Timing Breakdown
 
@@ -43,4 +46,5 @@ Style Newsletter section and write README.md
 4. In the root directory, Rename the file `.env.example` to `.env`
 5. run `php artisan key:generate`
 6. To install react and dependancies run `npm install && npm run production`
-7. Zicket App should now be viewable at `localhost:8000`
+7. Run `php artisan serve` to serve the app
+8. Zicket App should now be viewable at `localhost:8000`

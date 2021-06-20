@@ -1944,7 +1944,7 @@ var Carousel = function Carousel(_ref) {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
       className: "w-0 h-0 border-solid border-tri"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-      className: "grid grid-cols-2",
+      className: "ggrid grid-cols-1 md:grid-cols-2",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
         className: "w-355px ml-18vw mb-14",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("h2", {
@@ -2327,7 +2327,7 @@ var InfoCard = function InfoCard(_ref) {
       buttonLink = section.buttonLink,
       buttonText = section.buttonText;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("section", {
-    className: "grid grid-cols-2",
+    className: "grid grid-cols-1 md:grid-cols-2",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
       className: "".concat(imgLeft ? "order-1" : "order-2"),
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Image__WEBPACK_IMPORTED_MODULE_2__.default, {
@@ -2632,7 +2632,7 @@ var Sections = function Sections(_ref) {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
     className: "max-w-page mx-auto py-32",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "grid grid-cols-2",
+      className: "grid grid-cols-1 md:grid-cols-2",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h2", {
         className: "uppercase w-350px mx-auto",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
