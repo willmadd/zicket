@@ -2,6 +2,7 @@ import React from "react";
 import Image from "../Image";
 import Button from "../Button";
 import RouteId from '../../routes/routeMap';
+import PropTypes from 'prop-types';
 
 const Hero = ({ pageSection }) => {
 
@@ -24,3 +25,13 @@ const Hero = ({ pageSection }) => {
 };
 
 export default Hero;
+
+Hero.propTypes = {
+    pageSection: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired,
+        overlaySrc: PropTypes.string.isRequired,
+        background: PropTypes.string.isRequired,
+        buttonText: PropTypes.string.isRequired,
+    }),
+};

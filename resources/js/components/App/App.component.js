@@ -7,7 +7,7 @@ import Header from '../Header';
 
 function App() {
     return (
-        <div className="">
+        <div>
             <Header />
             <Switch>
                 {routes.map((route, index) => (

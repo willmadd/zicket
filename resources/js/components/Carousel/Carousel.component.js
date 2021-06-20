@@ -6,12 +6,20 @@ import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import Image from "../Image";
 import Button from "../Button";
+import PropTypes from "prop-types";
 
 const Carousel = ({ pageSection }) => {
     const slider = useRef(null);
 
-    const { slides, title, text, ctaTitle, ctaButtonText, ctaButtonLink, ctaText } =
-        pageSection;
+    const {
+        slides,
+        title,
+        text,
+        ctaTitle,
+        ctaButtonText,
+        ctaButtonLink,
+        ctaText,
+    } = pageSection;
 
     const [head, tail] = splitTitle(title);
 
@@ -89,3 +97,15 @@ const Carousel = ({ pageSection }) => {
 };
 
 export default Carousel;
+
+Carousel.propTypes = {
+    pageSection: PropTypes.shape({
+        slides: PropTypes.array.isRequired,
+        title: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired,
+        ctaTitle: PropTypes.string.isRequired,
+        ctaButtonText: PropTypes.string.isRequired,
+        ctaButtonLink: PropTypes.string.isRequired,
+        ctaText: PropTypes.string.isRequired
+    }),
+};

@@ -1,8 +1,9 @@
 import React from "react";
 import splitTitle from "../../utils/splitTitle";
 import InfoCard from "../InfoCard";
+import PropTypes from "prop-types";
 
-const Sections = ({ pageSection, index }) => {
+const Sections = ({ pageSection }) => {
     const { sections, title, text } = pageSection;
 
     const [head, tail] = splitTitle(title);
@@ -21,3 +22,11 @@ const Sections = ({ pageSection, index }) => {
 };
 
 export default Sections;
+
+Sections.propTypes={
+    pageSection: PropTypes.shape({
+        sections: PropTypes.array.isRequired,
+        title: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired,
+    })
+}
