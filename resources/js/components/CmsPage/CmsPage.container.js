@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import CmsPage from "./CmsPage.component";
 import { connect } from "react-redux";
 import { getCmsPage } from "../../store/cms/cms.actions";
+import SiteLoading from "../SiteLoading/SiteLoading.component";
 
 const mapStateToProps = (_state) => {
   return {
@@ -25,7 +26,7 @@ const CmsPageContainer = (props) => {
     getCmsPage(location.pathname);
   }, [location.pathname, getCmsPage]);
 
-  return isLoading ? <h1>Loading...</h1> : <CmsPage {...props} />;
+  return isLoading ? <SiteLoading /> : <CmsPage {...props} />;
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(CmsPageContainer);

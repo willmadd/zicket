@@ -37,6 +37,7 @@
         "react-slick": "^0.28.1",
         "redux": "^4.1.0",
         "redux-thunk": "^2.3.0",
-        "slick-carousel": "^1.8.1"
+        "slick-carousel": "^1.8.1",
+        "tailwindcss-gradients": "^3.0.0"
     }
 }

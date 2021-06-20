@@ -1,5 +1,4 @@
 import React from "react";
-import Text from "../Sections/Text";
 import Sections from "../Sections/Sections";
 import Carousel from "../Sections/Carousel";
 import Newsletter from "../Sections/Newsletter";
@@ -8,7 +7,6 @@ import PropTypes from "prop-types";
 
 const CmsPage = ({ cmsPage }) => {
     const TYPE = {
-        TEXT: "text",
         NEWSLETTER: "newsletter",
         CAROUSEL: "carousel",
         SECTIONS: "sections",
@@ -16,7 +14,6 @@ const CmsPage = ({ cmsPage }) => {
     };
 
     const typeMap = {
-        [TYPE.TEXT]: Text,
         [TYPE.NEWSLETTER]: Newsletter,
         [TYPE.SECTIONS]: Sections,
         [TYPE.CAROUSEL]: Carousel,

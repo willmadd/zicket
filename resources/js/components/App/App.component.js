@@ -3,10 +3,12 @@ import { Switch} from "react-router-dom";
 import { routes } from "../../routes/routes";
 import RouteFromArray from "../../routes/RouteFromArray";
 import '../../../css/app.css';
+import Header from '../Header';
 
 function App() {
     return (
         <div className="">
+            <Header />
             <Switch>
                 {routes.map((route, index) => (
                     <RouteFromArray

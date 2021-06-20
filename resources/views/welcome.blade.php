@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+    <link rel="preload"
+      as="font"
+      href="/fonts/opensans-light-webfont.woff2"
+      type="font/woff2"
+      crossorigin
+      />
+      <link rel="preload"
+      as="font"
+      href="/fonts/montserrat-bold-webfont.woff2"
+      type="font/woff2"
+      crossorigin
+      />
+    
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Zicket</title>
@@ -17,7 +30,7 @@
         <meta property="og:description" content="" />
         <meta property="og:image" content="" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet"> -->
     </head>
     <body>
 <div id="root">

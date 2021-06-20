@@ -26,7 +26,8 @@ const Carousel = ({ pageSection }) => {
     };
 
     return (
-        <section className="bg-gradient-to-r from-purple-1 to-blue-2 -rotate-12">
+        <section className="bg-gradient-to-r from-purple-1 to-blue-2 -rotate-12 relative pt-36">
+            <div className="absolute bg-white transform rotate-12 w-110 h-56 -top-109px -left-14 z-20"></div>
             <div>
                 <h2 className="uppercase w-350px mx-auto">
                     <span className="text-transparent white-outline">

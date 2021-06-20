@@ -9,10 +9,11 @@ const Hero = ({ pageSection }) => {
 
     return (
         <section className="min-h-screen relative">
+            {/* <div className="absolute w-full min-h-screen object-cover h-full z-40"></div> */}
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 max-w-738px text-center">
                 <h1 className="uppercase text-transparent font-heading white-outline">{title}</h1>
-                <p className="font-white">{text}</p>
-                <Button to={RouteId.getStarted} label={buttonText}/>
+                <p className="text-white">{text}</p>
+                <Button to={RouteId.getStarted} label={buttonText} bgCol={'pink-1'}/>
             </div>
 
             <Image
