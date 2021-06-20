@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CmsController;
+use App\Http\Controllers\NewsletterController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/cmspage/{identifier}', [CmsController::class, 'getCmsPage']);
+
+Route::post('/newslettersignup', [NewsletterController::class, 'submitEmail']);

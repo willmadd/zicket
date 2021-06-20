@@ -101,6 +101,7 @@
   {
     "name": "Signup",
     "type": "newsletter",
+    "title": "Stay up to date",
     "text": "Receive our latest news, announcements and offers."
   }
 ]

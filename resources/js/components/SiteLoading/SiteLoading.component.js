@@ -1,6 +1,8 @@
 import React from "react";
-import logo from "./img/logo";
+import logo from "./img/logo.svg";
 
+//this component is displayed while the rest of the site is loading in the background
+//The priority is for quick loading, hence inline styles and inline zogo.
 const SiteLoading = () => {
     const loadingStyles = {
         width: "100vw",

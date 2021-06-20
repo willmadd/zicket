@@ -18,7 +18,6 @@ const Image = ({ overlaySrc, src, classNames }) => {
                     }`}
                     alt='overlay'
                     loading='lazy'
-                    // style="height:100px; width:100px;"
                 />
             )}
             <img
@@ -29,7 +28,6 @@ const Image = ({ overlaySrc, src, classNames }) => {
                 }`}
                 alt='overlay'
                 loading='lazy'
-                // style="height:100px; width:100px;"
             />
         </div>
     );

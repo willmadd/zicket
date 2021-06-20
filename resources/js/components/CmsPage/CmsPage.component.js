@@ -1,8 +1,8 @@
 import React from "react";
-import Sections from "../Sections/Sections";
-import Carousel from "../Sections/Carousel";
-import Newsletter from "../Sections/Newsletter";
-import Hero from "../Sections/Hero";
+import Sections from "../Sections";
+import Carousel from "../Carousel";
+import Newsletter from "../Newsletter";
+import Hero from "../Hero";
 import PropTypes from "prop-types";
 
 const CmsPage = ({ cmsPage }) => {
@@ -20,8 +20,10 @@ const CmsPage = ({ cmsPage }) => {
         [TYPE.HERO]: Hero,
     };
 
+// this component loops thorugh the data received by the API call, and determines which component 
+// to display each data in
     return (
-        <div className="flex flex-col">
+        <main className="flex flex-col">
             {cmsPage.map((pageSection, i) => {
                 const { type } = pageSection;
                 const SectionComponent = typeMap[type];
@@ -33,7 +35,7 @@ const CmsPage = ({ cmsPage }) => {
                     />
                 );
             })}
-        </div>
+        </main>
     );
 };
 

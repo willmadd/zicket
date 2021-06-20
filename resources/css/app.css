@@ -1,33 +1,33 @@
+@import "./customSlickStyles.css";
+
 @tailwind base;
 @tailwind components;
 
-
 @font-face {
-  font-family: 'open_sansregular';
-  src: url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
-       url('/fonts/opensans-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-
+    font-family: "open_sansregular";
+    src: url("/fonts/opensans-regular-webfont.woff2") format("woff2"),
+        url("/fonts/opensans-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'open_sanslight';
-  src: url('/fonts/opensans-light-webfont.woff2') format('woff2'),
-       url('/fonts/opensans-light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: "open_sanslight";
+    src: url("/fonts/opensans-light-webfont.woff2") format("woff2"),
+        url("/fonts/opensans-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'montserratbold';
-  src: url('/fonts/montserrat-bold-webfont.woff2') format('woff2'),
-       url('/fonts/montserrat-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: "montserratbold";
+    src: url("/fonts/montserrat-bold-webfont.woff2") format("woff2"),
+        url("/fonts/montserrat-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @tailwind utilities;
@@ -35,35 +35,68 @@
 @layer utilities {
     .white-outline {
         -webkit-text-stroke: 1px #ffffff;
-      }
-      
-      .blue-outline {
-        -webkit-text-stroke: 1px #3B8EF9;
-      }
-  }
+    }
+    .blue-outline {
+        -webkit-text-stroke: 1px #3b8ef9;
+    }
+    .border-tri {
+        border-color: transparent #ffffff transparent transparent;
+        border-width: 0 100vw 240px 0;
+    }
+    .linear-grad {
+        background-image: linear-gradient(141deg, #7f3fd1 0%, #3b8ef9 100%);
+    }
+    .border-white-opaque {
+      border-color: rgba(255, 255 , 255, 0.1);
+    }
+    .border-white-full {
+      border-color: rgba(255, 255 , 255, 1);
+    }
+    .bg-white-opaque{
+      background-color: rgba(255, 255 , 255, 0.1)
+    }
+    .arrow-point{
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 6px solid white;
+    }
+}
 
 @layer base {
-    h1, h2, h3, h4, h5, h6 {
-      @apply font-head;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-head;
     }
     p {
-      @apply font-body;
-      @apply text-body;
-      @apply text-p;
+        @apply font-body;
+        @apply text-body;
+        @apply text-p;
     }
-    h1{
+    h1 {
         @apply text-h1;
     }
-    h2{
+    h2 {
         @apply text-h2;
     }
-    h3{
+    h3 {
         @apply text-h3;
     }
-    a{
-      @apply font-body;
+    h4 {
+        @apply text-h4;
     }
-    button{
-      @apply font-body;
+    h5 {
+        @apply text-h5;
+        @apply text-white;
+        @apply uppercase;
     }
-  }
+    a {
+        @apply font-body;
+    }
+    button {
+        @apply font-body;
+    }
+}

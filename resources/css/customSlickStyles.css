@@ -1,0 +1,30 @@
+.slick-track {
+    /* margin-left: -100px !important; */
+}
+
+.slick-slide {
+    padding: 16px;
+    max-height: 80%;
+}
+
+.slick-slide h5 {
+    margin-bottom: 12px;
+}
+.slick-slide h4 {
+    margin-top: 22px;
+    color:white;
+    opacity: 0.5;
+}
+
+.slick-current {
+    padding: 8px;
+    max-height: 100%;
+}
+.slick-current h4{
+    opacity:1;
+}
+
+.slick-slide img {
+    box-shadow: 0 8px 16px 2px rgba(32, 0, 187, 0.5);
+    border-radius: 6px;
+}
